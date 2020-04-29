@@ -8,7 +8,13 @@ public class GachaNewOperator extends GachaBasic {
     @Override
     protected boolean getUp2()
     {
-        return false;
+        return true;
+    }
+
+    @Override
+    protected boolean get6star()
+    {
+        return getUp1() || getNotUp();
     }
 
     @Override

@@ -55,7 +55,7 @@ abstract public class GachaBasic {
         if(get6star())
             gachaNoEliteTimes=0;
         else if(gachaNoEliteTimes>50)
-            rate=(gachaTimes-50)*0.02+0.02;
+            rate=(gachaNoEliteTimes-50)*0.02+0.02;
         //99次必出
     }
 
